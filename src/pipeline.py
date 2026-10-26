@@ -67,7 +67,7 @@ class CreditRiskProject:
         self.trainer = ModelTrainer(self.factory).fit_candidates(self.train, self.y_train, tune=self.tune)
         cv = self.trainer.cv_table(self.y_train)
         self._save(cv.reset_index().rename(columns={"index": "model"}), "model_comparison_cv_oof")
-        self.champion_name = self.trainer.pick_champion(self.y_train)
+        self.champion_name = C.CHAMPION_OVERRIDE or self.trainer.pick_champion(self.y_train)
         self.champion = self.trainer.models_[self.champion_name]
         self.summary["champion"] = self.champion_name
         self.summary["gbm_params"] = self.trainer.gbm_params_

@@ -12,7 +12,7 @@ N_FOLDS = 5               # cross-validation folds on the training set
 COST_FALSE_APPROVE = 5.0  # approve a customer who turns out BAD
 COST_FALSE_REJECT = 1.0   # reject a customer who would have been GOOD
 
-# ---- Money assumptions for the profit simulation---------------
+# ---- Money assumptions for the profit simulation (EDIT THESE) ---------------
 # Chosen so that LGD / margin = 5, consistent with the 5:1 matrix.
 MARGIN_RATE = 0.10        # profit on a good loan, as a fraction of loan amount
 LOSS_GIVEN_DEFAULT = 0.50 # loss on a bad loan, as a fraction of loan amount
@@ -33,9 +33,9 @@ RISK_BAND_LABELS = ["A", "B", "C", "D", "E"]
 # ---- Fairness ---------------------------------------------------------------
 PROTECTED_ATTRS = ["age_group", "sex", "foreign_worker"]
 # "Fairness through unawareness" experiment: list columns to REMOVE from the
-# models. Note sex is encoded inside personal_status_sex, so the column
-# will not be exposed to the model.
-EXCLUDE_FROM_MODEL: list = []
+# models. Note sex is encoded inside personal_status_sex, so remove that column
+# too if you want the model to be blind to it.
+EXCLUDE_FROM_MODEL: list = ["foreign_worker", "personal_status_sex"]
 
 # ---- Anomaly detection ------------------------------------------------------
 ANOMALY_CONTAMINATION = 0.05
@@ -43,3 +43,5 @@ ANOMALY_CONTAMINATION = 0.05
 # ---- Champion selection -----------------------------------------------------
 # Prefer the interpretable scorecard if its CV AUC is within this margin of the best.
 CHAMPION_AUC_TOLERANCE = 0.01
+
+CHAMPION_OVERRIDE = "scorecard"   # None = use the AUC-tolerance rule

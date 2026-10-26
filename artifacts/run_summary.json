@@ -5,11 +5,11 @@
     "n_missing_cells": 0,
     "duplicated_rows": 0
   },
-  "champion": "gbm_calibrated",
+  "champion": "scorecard",
   "gbm_params": {
-    "learning_rate": 0.03,
+    "learning_rate": 0.08,
     "max_depth": 3,
-    "n_estimators": 200
+    "n_estimators": 100
   },
   "scorecard": {
     "features": [
@@ -24,8 +24,6 @@
       "housing",
       "monthly_payment",
       "credit_amount",
-      "personal_status_sex",
-      "foreign_worker",
       "age",
       "installment_rate"
     ],
@@ -34,20 +32,20 @@
     "offset": 487.1228762045055
   },
   "thresholds": {
-    "cost_optimal_pd": 0.16,
-    "score_cutoff": 532.2763345066346,
+    "cost_optimal_pd": 0.115,
+    "score_cutoff": 545.6479014534499,
     "theoretical_pd": 0.16666666666666666
   },
   "plain_language_drivers": [
     "checking_status_no checking account: odds of default x0.44 (lowers default risk).",
     "credit_history_critical / credits elsewhere: odds of default x0.50 (lowers default risk).",
-    "purpose_education: odds of default x1.88 (raises default risk).",
-    "checking_status_< 0 DM: odds of default x1.84 (raises default risk).",
-    "purpose_used car: odds of default x0.56 (lowers default risk).",
-    "savings_< 100 DM: odds of default x1.74 (raises default risk).",
-    "property_unknown / no property: odds of default x1.65 (raises default risk).",
-    "employment_since_4-7 yrs: odds of default x0.63 (lowers default risk).",
-    "credit_history_no credits / all paid: odds of default x1.54 (raises default risk).",
-    "personal_status_sex_male single: odds of default x0.65 (lowers default risk)."
+    "purpose_education: odds of default x1.93 (raises default risk).",
+    "purpose_used car: odds of default x0.54 (lowers default risk).",
+    "checking_status_< 0 DM: odds of default x1.80 (raises default risk).",
+    "savings_< 100 DM: odds of default x1.75 (raises default risk).",
+    "employment_since_4-7 yrs: odds of default x0.61 (lowers default risk).",
+    "property_unknown / no property: odds of default x1.57 (raises default risk).",
+    "housing_rent: odds of default x1.57 (raises default risk).",
+    "duration_months: odds of default x1.52 (raises default risk)."
   ]
 }
