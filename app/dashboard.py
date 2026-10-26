@@ -13,7 +13,7 @@ from src.bundle import ModelBundle
 
 TABLES, FIGS = ROOT / "reports" / "tables", ROOT / "reports" / "figures"
 st.set_page_config(page_title="Credit Risk", layout="wide")
-st.title("Credit Risk Software - German Credit")
+st.title("Credit risk dashboard - German Credit")
 
 
 def table(name, caption=None):
