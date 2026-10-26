@@ -1,0 +1,13 @@
+.smoke
+.venv
+.git
+.ipynb_checkpoints
+*.ipynb
+*.csv
+source
+data
+tests
+artifacts
+reports
+**/__pycache__
+**/*.pyc

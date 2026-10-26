@@ -1,0 +1,53 @@
+{
+  "eda": {
+    "n_rows": 800,
+    "bad_rate": 0.3,
+    "n_missing_cells": 0,
+    "duplicated_rows": 0
+  },
+  "champion": "gbm_calibrated",
+  "gbm_params": {
+    "learning_rate": 0.03,
+    "max_depth": 3,
+    "n_estimators": 200
+  },
+  "scorecard": {
+    "features": [
+      "checking_status",
+      "credit_history",
+      "savings",
+      "duration_months",
+      "purpose",
+      "property",
+      "employment_since",
+      "other_installment_plans",
+      "housing",
+      "monthly_payment",
+      "credit_amount",
+      "personal_status_sex",
+      "foreign_worker",
+      "age",
+      "installment_rate"
+    ],
+    "dropped_negative_coef": [],
+    "factor": 28.85390081777927,
+    "offset": 487.1228762045055
+  },
+  "thresholds": {
+    "cost_optimal_pd": 0.16,
+    "score_cutoff": 532.2763345066346,
+    "theoretical_pd": 0.16666666666666666
+  },
+  "plain_language_drivers": [
+    "checking_status_no checking account: odds of default x0.44 (lowers default risk).",
+    "credit_history_critical / credits elsewhere: odds of default x0.50 (lowers default risk).",
+    "purpose_education: odds of default x1.88 (raises default risk).",
+    "checking_status_< 0 DM: odds of default x1.84 (raises default risk).",
+    "purpose_used car: odds of default x0.56 (lowers default risk).",
+    "savings_< 100 DM: odds of default x1.74 (raises default risk).",
+    "property_unknown / no property: odds of default x1.65 (raises default risk).",
+    "employment_since_4-7 yrs: odds of default x0.63 (lowers default risk).",
+    "credit_history_no credits / all paid: odds of default x1.54 (raises default risk).",
+    "personal_status_sex_male single: odds of default x0.65 (lowers default risk)."
+  ]
+}
