@@ -1,0 +1,25 @@
+credit_amount,duration_months,monthly_payment,age,anomaly_score,review_reason
+14896,6,2482.6666666666665,68,0.7018350071664952,large amount over short duration; very high implied monthly payment; statistical outlier (isolation forest)
+14555,6,2425.8333333333335,23,0.6644363696199995,large amount over short duration; very high implied monthly payment; young applicant with large loan; statistical outlier (isolation forest)
+3448,5,689.6,74,0.659188570772354,very high implied monthly payment; statistical outlier (isolation forest)
+13756,60,229.26666666666668,63,0.6449781868026487,statistical outlier (isolation forest)
+1175,16,73.4375,68,0.6263353868565227,statistical outlier (isolation forest)
+1544,4,386.0,42,0.614529226280929,very high implied monthly payment; statistical outlier (isolation forest)
+18424,48,383.8333333333333,32,0.6095532860263289,very high implied monthly payment; statistical outlier (isolation forest)
+8086,36,224.61111111111111,42,0.6070509817442665,statistical outlier (isolation forest)
+7596,30,253.2,63,0.599316634163685,statistical outlier (isolation forest)
+2442,27,90.44444444444444,43,0.5937350341263267,statistical outlier (isolation forest)
+2748,12,229.0,57,0.5873647929417443,statistical outlier (isolation forest)
+6615,24,275.625,75,0.5849963833654409,statistical outlier (isolation forest)
+10144,60,169.06666666666666,21,0.5833786603281748,young applicant with large loan
+7472,12,622.6666666666666,24,0.5803160696465182,large amount over short duration; very high implied monthly payment
+15672,48,326.5,23,0.5791180389201516,young applicant with large loan
+15857,36,440.47222222222223,43,0.575747388629852,very high implied monthly payment
+6199,12,516.5833333333334,28,0.567042407674897,very high implied monthly payment
+7511,18,417.27777777777777,51,0.5546244527456752,very high implied monthly payment
+11328,24,472.0,29,0.5531016227056755,very high implied monthly payment
+4675,12,389.5833333333333,20,0.5284247435232186,very high implied monthly payment; young applicant with large loan
+5951,48,123.97916666666667,22,0.5143029276811522,young applicant with large loan
+4843,12,403.5833333333333,43,0.513390334035824,very high implied monthly payment
+6078,12,506.5,32,0.512769549082233,very high implied monthly payment
+2647,6,441.1666666666667,44,0.5109094750642329,very high implied monthly payment

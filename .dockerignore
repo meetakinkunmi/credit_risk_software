@@ -3,7 +3,6 @@
 .git
 .ipynb_checkpoints
 *.ipynb
-*.csv
 source
 data
 tests

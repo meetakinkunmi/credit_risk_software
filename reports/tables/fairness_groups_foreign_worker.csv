@@ -1,0 +1,3 @@
+attribute,group,n,actual_bad_rate,approval_rate,approval_rate_among_good,approval_rate_among_bad,cost_per_applicant,small_group_warning
+foreign_worker,no,6,0.16666666666666666,0.3333333333333333,0.4,0.0,0.5,True
+foreign_worker,yes,194,0.30412371134020616,0.25257731958762886,0.3333333333333333,0.06779661016949153,0.5670103092783505,False

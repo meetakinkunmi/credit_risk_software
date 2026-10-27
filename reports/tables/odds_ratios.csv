@@ -1,0 +1,58 @@
+feature,coef,odds_ratio,effect
+checking_status_no checking account,-0.8221265453592072,0.43949605176847284,lowers default risk
+credit_history_critical / credits elsewhere,-0.7006410205572655,0.4962670844067235,lowers default risk
+purpose_education,0.6564042952187062,1.9278478849316114,raises default risk
+purpose_used car,-0.6071999347991491,0.5448744189589217,lowers default risk
+checking_status_< 0 DM,0.5869244820674477,1.7984487397286761,raises default risk
+savings_< 100 DM,0.5595192235629343,1.749831020506976,raises default risk
+employment_since_4-7 yrs,-0.4992782602738478,0.6069685749962963,lowers default risk
+property_unknown / no property,0.4536544839245611,1.5740540425325371,raises default risk
+housing_rent,0.4534267842120404,1.5736956716815789,raises default risk
+duration_months,0.4190088664600036,1.520453835773554,raises default risk
+credit_history_no credits / all paid,0.4123411292231323,1.510349572836131,raises default risk
+savings_unknown / none,-0.4018828489889055,0.6690591220519525,lowers default risk
+savings_>= 1000 DM,-0.3903040917997603,0.6768510183558272,lowers default risk
+purpose_new car,0.38759206143109814,1.4734285933202491,raises default risk
+employment_since_< 1 yr,0.3697214080342318,1.447331343607761,raises default risk
+housing_for free,-0.36389750707577,0.6949624198234525,lowers default risk
+credit_amount,0.35815148179748213,1.4306823263964112,raises default risk
+other_debtors_guarantor,-0.3580430313445403,0.6990429935994026,lowers default risk
+other_installment_plans_none,-0.3540428602735459,0.7018448854469622,lowers default risk
+other_installment_plans_bank,0.3373046109171405,1.4011658091417698,raises default risk
+property_real estate,-0.3012428787293148,0.7398980454245241,lowers default risk
+installment_rate,0.2904486502957403,1.3370272111361259,raises default risk
+purpose_others,-0.29040329896027073,0.7479618545041264,lowers default risk
+checking_status_0-200 DM,0.2818632930041265,1.3255974891488336,raises default risk
+savings_100-500 DM,0.2571884058287102,1.2932887669489157,raises default risk
+employment_since_unemployed,0.2568273539396034,1.2928219068818743,raises default risk
+credit_history_all paid at this bank,0.25027949911202546,1.2843843508100714,raises default risk
+other_debtors_co-applicant,0.24900448793865482,1.282747789950284,raises default risk
+log_credit_amount,-0.24166053309675245,0.7853227233804823,lowers default risk
+purpose_radio/TV,-0.23231106671682855,0.7926995025192327,lowers default risk
+purpose_repairs,0.21525332350321044,1.240176022911361,raises default risk
+telephone_yes,-0.1457400764264165,0.8643823473368849,lowers default risk
+telephone_none,0.14357508897068738,1.154393489771665,raises default risk
+purpose_retraining,-0.1383633251061421,0.8707822572089463,lowers default risk
+property_savings agreement / life insurance,-0.13439183178127298,0.8742474395505129,lowers default risk
+other_debtors_none,0.1068735559501574,1.1127935394614565,raises default risk
+housing_own,-0.09169426459200042,0.9123840550185919,lowers default risk
+existing_credits,0.09011708964465028,1.0943024076841241,raises default risk
+credit_history_existing credits paid duly,0.08672014978209058,1.0905914347581684,raises default risk
+job_unemployed / unskilled non-resident,-0.0843018098675184,0.9191538045404449,lowers default risk
+purpose_furniture/equipment,0.07704217889148277,1.0800876323308801,raises default risk
+employment_since_1-4 yrs,-0.06861301298670235,0.9336879352785835,lowers default risk
+job_skilled employee,0.06472782481586936,1.0668686097038615,raises default risk
+employment_since_>= 7 yrs,-0.060822476169015253,0.9409902731475775,lowers default risk
+monthly_payment,0.05984873460338827,1.061675939566455,raises default risk
+age,-0.0573569725700794,0.9442569353712743,lowers default risk
+credit_history_past payment delay,-0.05086474501571114,0.9504072091516284,lowers default risk
+checking_status_>= 200 DM / salary assigned at least 1 yr,-0.0488262171680972,0.9523466168107013,lowers default risk
+purpose_business,-0.044570479154008066,0.956408190877997,lowers default risk
+dependents,0.03779149243046011,1.038514672131787,raises default risk
+savings_500-1000 DM,-0.0266856760587079,0.9736672403549336,lowers default risk
+purpose_domestic appliances,-0.02560874176382838,0.9747163808241499,lowers default risk
+property_car or other,-0.020184760869703566,0.9800175876766772,lowers default risk
+job_unskilled resident,0.01919012810308168,1.0193754421131664,raises default risk
+other_installment_plans_stores,0.014573261900677415,1.0146799696115691,raises default risk
+residence_since,0.00784629092072322,1.0078771537280444,raises default risk
+job_management / self-employed / highly qualified,-0.0017811305071616973,0.9982204547644485,lowers default risk

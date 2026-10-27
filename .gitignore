@@ -2,7 +2,6 @@ __pycache__/
 .smoke/
 data/*.data
 artifacts/
-reports/
 .venv/
 .pytest_cache/
 .ipynb_checkpoints/

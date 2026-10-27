@@ -1,0 +1,20 @@
+variable,iv,strength
+checking_status,0.6092589059819219,suspiciously strong
+credit_history,0.26243814257143433,medium
+savings,0.21412808111683695,medium
+duration_months,0.21324423225590727,medium
+purpose,0.14654600315403343,medium
+property,0.14517526506610057,medium
+employment_since,0.12416502390910762,medium
+other_installment_plans,0.09104971189346579,weak
+housing,0.08870958653958247,weak
+monthly_payment,0.07262892141720424,weak
+credit_amount,0.06543018407126053,weak
+age,0.04288448684259387,weak
+installment_rate,0.0312120729852046,weak
+job,0.012296068000124182,useless
+existing_credits,0.01040940159479472,useless
+telephone,0.008187777357164725,useless
+other_debtors,0.0014655589316447204,useless
+residence_since,0.0007883971364466742,useless
+dependents,0.0007775675314665616,useless

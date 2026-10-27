@@ -1,0 +1,21 @@
+variable,mean_abs_shap
+Checking account balance,0.7057735168878465
+Past repayment behaviour,0.3417704136463972
+Implied monthly payment,0.3412195867288481
+Loan purpose,0.3355223756982407
+Loan duration,0.287528608962539
+Savings balance,0.26890431673214116
+Time in current job,0.23224828730770164
+Other credit obligations,0.1718709662810731
+Most valuable asset,0.16412415708710035
+Loan amount,0.13690112555005965
+Loan amount (log),0.13218722094252533
+Housing,0.1117215561253854
+Age,0.11165182395900626
+Instalment as % of income,0.07875511363378564
+Co-applicant / guarantor,0.05374666307831655
+Registered phone,0.04986982772409716
+Job category,0.03180394923831173
+Credits at this bank,0.01771317387777145
+People to maintain,0.010248875369681366
+Years at residence,0.005839683654610994

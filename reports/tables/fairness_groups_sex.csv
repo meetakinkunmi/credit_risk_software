@@ -1,0 +1,3 @@
+attribute,group,n,actual_bad_rate,approval_rate,approval_rate_among_good,approval_rate_among_bad,cost_per_applicant,small_group_warning
+sex,female,61,0.32786885245901637,0.22950819672131148,0.3170731707317073,0.05,0.5409836065573771,False
+sex,male,139,0.28776978417266186,0.26618705035971224,0.3434343434343434,0.075,0.5755395683453237,False

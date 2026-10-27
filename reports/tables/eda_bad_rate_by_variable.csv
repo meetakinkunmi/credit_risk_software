@@ -1,0 +1,89 @@
+variable,level,n,bad_rate
+checking_status,0-200 DM,214,0.3925233644859813
+checking_status,< 0 DM,219,0.4794520547945205
+checking_status,>= 200 DM / salary assigned at least 1 yr,51,0.2549019607843137
+checking_status,no checking account,316,0.12025316455696203
+credit_history,all paid at this bank,41,0.5365853658536586
+credit_history,critical / credits elsewhere,240,0.175
+credit_history,existing credits paid duly,416,0.32211538461538464
+credit_history,no credits / all paid,31,0.6129032258064516
+credit_history,past payment delay,72,0.3194444444444444
+purpose,business,79,0.3291139240506329
+purpose,domestic appliances,10,0.3
+purpose,education,40,0.5
+purpose,furniture/equipment,149,0.3288590604026846
+purpose,new car,194,0.36082474226804123
+purpose,others,6,0.3333333333333333
+purpose,radio/TV,215,0.21395348837209302
+purpose,repairs,18,0.3888888888888889
+purpose,retraining,5,0.2
+purpose,used car,84,0.19047619047619047
+savings,100-500 DM,90,0.3333333333333333
+savings,500-1000 DM,50,0.16
+savings,< 100 DM,475,0.3642105263157895
+savings,>= 1000 DM,41,0.12195121951219512
+savings,unknown / none,144,0.16666666666666666
+employment_since,1-4 yrs,271,0.2767527675276753
+employment_since,4-7 yrs,139,0.22302158273381295
+employment_since,< 1 yr,143,0.4405594405594406
+employment_since,>= 7 yrs,206,0.2621359223300971
+employment_since,unemployed,41,0.4146341463414634
+personal_status_sex,female divorced/separated/married,249,0.357429718875502
+personal_status_sex,male divorced/separated,41,0.4146341463414634
+personal_status_sex,male married/widowed,80,0.275
+personal_status_sex,male single,430,0.26046511627906976
+other_debtors,co-applicant,34,0.4411764705882353
+other_debtors,guarantor,37,0.21621621621621623
+other_debtors,none,729,0.29766803840877915
+property,car or other,267,0.30711610486891383
+property,real estate,225,0.20444444444444446
+property,savings agreement / life insurance,184,0.29891304347826086
+property,unknown / no property,124,0.4596774193548387
+other_installment_plans,bank,112,0.45535714285714285
+other_installment_plans,none,649,0.2696456086286595
+other_installment_plans,stores,39,0.358974358974359
+housing,for free,86,0.4069767441860465
+housing,own,570,0.2596491228070175
+housing,rent,144,0.3958333333333333
+job,management / self-employed / highly qualified,115,0.34782608695652173
+job,skilled employee,511,0.2896281800391389
+job,unemployed / unskilled non-resident,16,0.375
+job,unskilled resident,158,0.2911392405063291
+telephone,none,475,0.3157894736842105
+telephone,yes,325,0.27692307692307694
+foreign_worker,no,31,0.0967741935483871
+foreign_worker,yes,769,0.3081924577373212
+duration_months,"(12.0, 15.0]",60,0.18333333333333332
+duration_months,"(15.0, 24.0]",270,0.34074074074074073
+duration_months,"(24.0, 30.0]",44,0.3181818181818182
+duration_months,"(3.999, 12.0]",288,0.2048611111111111
+duration_months,"(30.0, 60.0]",138,0.463768115942029
+credit_amount,"(1256.2, 1890.6]",160,0.2375
+credit_amount,"(1890.6, 2815.2]",160,0.2875
+credit_amount,"(275.999, 1256.2]",160,0.30625
+credit_amount,"(2815.2, 4629.8]",160,0.26875
+credit_amount,"(4629.8, 15945.0]",160,0.4
+installment_rate,1,114,0.24561403508771928
+installment_rate,2,188,0.26595744680851063
+installment_rate,3,129,0.2868217054263566
+installment_rate,4,369,0.33875338753387535
+residence_since,1,110,0.3090909090909091
+residence_since,2,243,0.29218106995884774
+residence_since,3,120,0.3
+residence_since,4,327,0.30275229357798167
+age,"(18.999, 26.0]",185,0.3783783783783784
+age,"(26.0, 30.0]",143,0.3006993006993007
+age,"(30.0, 36.0]",183,0.2677595628415301
+age,"(36.0, 44.0]",136,0.2647058823529412
+age,"(44.0, 75.0]",153,0.27450980392156865
+existing_credits,1,502,0.31673306772908366
+existing_credits,2,274,0.2737226277372263
+existing_credits,3,20,0.25
+existing_credits,4,4,0.25
+dependents,1,672,0.2976190476190476
+dependents,2,128,0.3125
+monthly_payment,"(111.15, 152.677]",160,0.2875
+monthly_payment,"(152.677, 228.4]",160,0.2375
+monthly_payment,"(228.4, 1126.833]",160,0.2625
+monthly_payment,"(24.055, 79.033]",160,0.40625
+monthly_payment,"(79.033, 111.15]",160,0.30625

@@ -1,0 +1,5 @@
+policy,approval_rate,bad_rate_among_approved,false_approvals,false_rejections,matrix_cost,matrix_cost_per_applicant,expected_profit_DM,profit_per_applicant_DM,cost_ci_low,cost_ci_high
+approve_all,1.0,0.3,60,0,300.0,1.5,-96042.09999999999,-480.21049999999997,1.1993750000000005,1.775
+cutoff_0.5,0.79,0.189873417721519,30,12,162.0,0.81,-26330.0,-131.65,0.57,1.0651249999999999
+cost_optimal_cutoff,0.255,0.0784313725490196,4,93,113.0,0.565,8558.9,42.7945,0.455,0.7
+score_based_cutoff,0.265,0.11320754716981132,6,93,123.0,0.615,6798.9,33.994499999999995,0.495,0.745
