@@ -25,7 +25,7 @@ class PolicySimulator:
                 "expected_profit_DM": profit, "profit_per_applicant_DM": profit / n}
 
     def bootstrap_ci(self, approve, y_bad, level=0.95) -> tuple:
-        """Cost per applicant is noisy on ~250 test rows: report an interval, not just a number."""
+        """Cost per applicant is noisy on ~200 test rows: report an interval, not just a number."""
         a, y = np.asarray(approve).astype(bool), np.asarray(y_bad).astype(bool)
         vals = []
         for _ in range(self.n_boot):

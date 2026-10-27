@@ -1,5 +1,4 @@
-"""Step 13: the single object shipped to production. 
-API and dashboard both call ModelBundle.score()."""
+"""Step 13: the single object shipped to production. API and dashboard both call ModelBundle.score()."""
 from dataclasses import dataclass, field
 from pathlib import Path
 
@@ -26,8 +25,7 @@ class ModelBundle:
     metadata: dict = field(default_factory=dict)
 
     def score(self, raw: pd.DataFrame) -> pd.DataFrame:
-        """raw = frame with the 20 UCI columns using UCI CODES (A11, A12, ...). 
-        Raises ValueError on bad codes."""
+        """raw = frame with the 20 UCI columns using UCI CODES (A11, A12, ...). Raises ValueError on bad codes."""
         df = GermanCreditData.prepare(raw)
         pd_ = np.asarray(self.champion.predict_pd(df))
         flags = self.anomaly.score(df)

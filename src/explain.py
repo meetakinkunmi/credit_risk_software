@@ -9,8 +9,7 @@ class RiskDriverExplainer:
     @staticmethod
     def odds_ratios(logreg_model) -> pd.DataFrame:
         """exp(coef) on the one-hot / standardised design. Numeric rows: odds multiplier per +1 SD.
-        Category rows: odds multiplier relative to the AVERAGE applicant 
-        (L2 shrinkage, no reference level)."""
+        Category rows: odds multiplier relative to the AVERAGE applicant (L2 shrinkage, no reference level)."""
         prep, clf = logreg_model.pipeline.named_steps["prep"], logreg_model.pipeline.named_steps["clf"]
         names = [n.split("__", 1)[1] for n in prep.get_feature_names_out()]
         coef = clf.coef_[0]

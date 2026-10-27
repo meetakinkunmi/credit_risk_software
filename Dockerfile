@@ -1,8 +1,8 @@
-FROM python:3.12-slim
+FROM python:3.11-slim
 WORKDIR /app
 ENV PYTHONPATH=/app PYTHONUNBUFFERED=1
-COPY requirements-docker.txt .
-RUN pip install --no-cache-dir --default-timeout=120 --retries 10 -r requirements-docker.txt
+COPY requirements.txt .
+RUN pip install --no-cache-dir -r requirements.txt
 COPY src ./src
 COPY app ./app
 # artifacts/ and reports/ are produced by `python run_pipeline.py` and mounted at run time

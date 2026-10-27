@@ -13,7 +13,7 @@ from src.bundle import ModelBundle
 
 TABLES, FIGS = ROOT / "reports" / "tables", ROOT / "reports" / "figures"
 st.set_page_config(page_title="Credit Risk", layout="wide")
-st.title("Credit risk dashboard - German Credit")
+st.title("Credit Risk Software - German Credit")
 
 
 def table(name, caption=None):
@@ -21,7 +21,7 @@ def table(name, caption=None):
     if p.exists():
         if caption:
             st.caption(caption)
-        st.dataframe(pd.read_csv(p), use_container_width=True)
+        st.dataframe(pd.read_csv(p), width="stretch")
     else:
         st.info(f"{name}.csv not found - run the pipeline first.")
 
