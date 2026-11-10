@@ -1,6 +1,6 @@
 # German Credit Risk: cost-sensitive scoring, audit and deployment
 
-Dashboard url - https://tinyurl.com/credit-risk-software
+Dashboard url - https://tinyurl.com/credit-risk-app
 
 A class-based credit-risk project built on the UCI Statlog German Credit data (1,000 loans, 20 applicant attributes, about 30% bad loan). This project produces a points-based scorecard, a cost-aware approve/decline rule, a fairness audit, a manual-review flag, drift monitoring, a FastAPI service and a Streamlit dashboard.
 
